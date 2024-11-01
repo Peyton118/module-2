@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+    {% block content %}
+    {% for name in names %}
+        <h1 class="main-header"> <a href="{{name}}" class="link"> {{name}} </a> <h1>
+    {% endfor %}
+    {% endblock content %}
