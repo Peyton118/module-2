@@ -5,7 +5,7 @@
 
 .main-header-link:link {
     color: blue;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .main-header-link:hover {
@@ -15,27 +15,66 @@
 
 .main-header-link:visited {
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
 
 
 .link:link {
-    color: red;
+    color: white;
     text-decoration: underline;
 }
 
 .link:hover {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 .link:visited {
-    color: red;
+    color: white;
     text-decoration: underline;
 }
 
 body {
     background-color: white;
+}
+
+.teamDiv {
+    background-color: black;
+    width: 50%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.teamName {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.members {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.teamDesc {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.linkCont {
+    background-color: black;
+    width: 50%;
+    height: 50%;
+    border-radius: 5px;
 }
